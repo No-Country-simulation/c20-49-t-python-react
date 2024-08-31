@@ -6,7 +6,7 @@ function QuienesSomos(){
         <main>
             <h2 class='tituloQuienesSomos'>REFUGIO PELUDITOS</h2>
 
-            <h3>Sobre Nosotros</h3>
+            <h3>Sobre <br />Nosotros</h3>
             <div>
                 <p>Peluditos se centra en proporcionar un entorno seguro y amoroso para animales que han sido maltratados, abandonados o que necesitan un hogar temporal. </p>
                 <p>Ofrecemos a los animales un cuidado inmediato, atención médica y un refugio seguro, además de facilitar la adopción de los animales a hogares permanentes asegurándose de que los futuros dueños sean aptos y comprometidos.</p>
