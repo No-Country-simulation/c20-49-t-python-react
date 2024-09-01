@@ -1,6 +1,23 @@
+.imagenDeFondo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./img/foto_perro.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1349px;
+    height: 548px;
+
+}
+
 .tituloQuienesSomos{
     width: 657px;
     height: 76px;
     text-align: center;
+    color: #FFFFFF;
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    font-weight: "Roboto Slab", serif;
     
 }
