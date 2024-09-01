@@ -24,6 +24,13 @@
     padding: 20px;
     gap: 20px;
 }
+.contenedorDos{
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-evenly;
+    padding: 20px;
+    gap: 20px;
+}
 .texto{
     flex: 1;
     margin-bottom: 10px;
@@ -34,6 +41,8 @@
     flex-direction: column;
     gap: 10px;
     margin-right: 20px;
+    width: 461px;
+    height: 584px;
 }
 .foto{
     width: 150px; 
@@ -49,7 +58,7 @@
     font-family: "Roboto Slab", serif;
     font-size: 36px;
 }
-.texto{
+.parrafo{
     font-family: "Poppins", sans-serif;
     font-size:  24px;
 }
