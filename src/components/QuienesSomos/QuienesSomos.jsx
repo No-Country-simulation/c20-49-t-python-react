@@ -1,5 +1,8 @@
 import React from "react";
 import "./QuienesSomos.css";
+import foto_1 from "../QuienesSomos/img/foto_1.png";
+import foto_2 from "../QuienesSomos/img/foto_2.png";
+import foto_3 from "../QuienesSomos/img/foto_3.png";
 
 function QuienesSomos() {
   return (
@@ -7,31 +10,40 @@ function QuienesSomos() {
       <div className="imagenDeFondo">
         <h2 class="tituloQuienesSomos">REFUGIO PELUDITOS</h2>
       </div>
-
-      <h3>
-        Sobre <br />
-        Nosotros
-      </h3>
-      <div>
-        <p>
-          Peluditos se centra en proporcionar un entorno seguro y amoroso para
-          animales que han sido maltratados, abandonados o que necesitan un
-          hogar temporal.{" "}
-        </p>
-        <p>
-          Ofrecemos a los animales un cuidado inmediato, atención médica y un
-          refugio seguro, además de facilitar la adopción de los animales a
-          hogares permanentes asegurándose de que los futuros dueños sean aptos
-          y comprometidos.
-        </p>
-        <p>
-          Por otro lado, nos involucrandonos en la comunidad con apoyo de
-          distintas personas del pais, ayudandonos a sostener este lugar que
-          acoge con cariño a los animales.
-        </p>
+      <div className="contenedor">
+        <div className="texto">
+          <h3 className="sobre">Sobre</h3>
+          <h3 className="nosotros">Nosotros</h3>
+          <br />
+          <p className="texto">
+            Peluditos se centra en proporcionar un entorno seguro y amoroso para
+            animales que han sido maltratados, abandonados o que necesitan un
+            hogar temporal.
+          </p>
+          <br />
+          <p className="texto">
+            Ofrecemos a los animales un cuidado inmediato, atención médica y un
+            refugio seguro, además de facilitar la adopción de los animales a
+            hogares permanentes asegurándose de que los futuros dueños sean
+            aptos y comprometidos.
+          </p>
+          <br />
+          <p className="texto">
+            Por otro lado, nos involucrandonos en la comunidad con apoyo de
+            distintas personas del pais, ayudandonos a sostener este lugar que
+            acoge con cariño a los animales.
+          </p>
+          <br />
+        </div>
+        <div className="imagenes">
+          <img className="foto" src={foto_1} />
+          <img className="foto" src={foto_2} />
+        </div>
       </div>
 
+    <div>
       <h3>Nuestra mision</h3>
+    </div>
       <div>
         <p>
           Peluditos nace en el año 2010 con el primer rescate en la provincia de
