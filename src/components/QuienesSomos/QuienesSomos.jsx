@@ -3,11 +3,13 @@ import "./QuienesSomos.css";
 import foto_1 from "../QuienesSomos/img/foto_1.png";
 import foto_2 from "../QuienesSomos/img/foto_2.png";
 import foto_3 from "../QuienesSomos/img/foto_3.png";
+import fondo from "../QuienesSomos/img/foto_perro.png";
 
 function QuienesSomos() {
   return (
     <main>
       <div className="imagenDeFondo">
+        
         <h2 class="tituloQuienesSomos">REFUGIO PELUDITOS</h2>
       </div>
       <div className="contenedor">

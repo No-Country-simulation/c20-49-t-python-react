@@ -1,13 +1,13 @@
 .imagenDeFondo{
     display: flex;
+    height: 300px;
+    width: 1361px;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: center;
-    background-image: url('./img/foto_perro.png');
+    background-image: url(./img/foto_perro.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 1349px;
-    height: 548px;
 }
 .tituloQuienesSomos{
     width: 657px;
