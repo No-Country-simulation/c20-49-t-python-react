@@ -7,9 +7,9 @@ import fondo from "../QuienesSomos/img/foto_perro.png";
 
 function QuienesSomos() {
   return (
-    <main>
+    <main className="fondoDelMain">
+      <div className="cuadradoDos"></div>
       <div className="imagenDeFondo">
-        
         <h2 class="tituloQuienesSomos">REFUGIO PELUDITOS</h2>
       </div>
       <div className="contenedor">
@@ -71,6 +71,7 @@ function QuienesSomos() {
           <img className="foto" src={foto_3} />
         </div>
       </div>
+      <div className="cuadrado"></div>
     </main>
   );
 }
