@@ -1,10 +1,7 @@
-.fondoDelMain{
-    background-image: linear-gradient(to right, #F6E75E, white, white, #F6E75E);
-}
 .imagenDeFondo{
     display: flex;
-    height: 300px;
-    width: 1361px;
+    height: 500px;
+    width: 1300px;
     justify-content: space-evenly;
     align-items: center;
     background-image: url(./img/foto_de_fondo.png);
@@ -12,6 +9,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-position: right center;
+}
+.rectanguloUno{
+    height: auto;
+    width: 1300px;
+}
+.rectanguloDos{
+    height: auto;
+    width: 1300px;
 }
 .tituloQuienesSomos{
     width: 657px;
@@ -84,11 +89,6 @@
     color: #000000;
 }
 .cuadrado{
-    width: 100vw;
-    height: 10vh;
-    background-color: white;
-}
-.cuadradoDos{
     width: 100vw;
     height: 10vh;
     background-color: white;
