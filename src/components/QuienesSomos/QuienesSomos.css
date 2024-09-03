@@ -1,5 +1,5 @@
 .fondoDelMain{
-    background-image: linear-gradient(to right, #F6E75E, white, #F6E75E);
+    background-image: linear-gradient(to right, #F6E75E, white, white, #F6E75E);
 }
 .imagenDeFondo{
     display: flex;
@@ -7,10 +7,11 @@
     width: 1361px;
     justify-content: space-evenly;
     align-items: center;
-    background-image: url(./img/foto_perro.png);
+    background-image: url(./img/foto_de_fondo.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-position: right center;
 }
 .tituloQuienesSomos{
     width: 657px;
@@ -23,7 +24,7 @@
 .contenedor{
     display: flex;
     flex-direction: row-reverse;
-    justify-content:  space-evenly;
+    justify-content:  space-around;
     padding: 20px;
     gap: 20px;
 }
@@ -36,7 +37,7 @@
 }
 .texto{
     flex: 1;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     max-width: 50%
 }
 .imagenes{
@@ -44,12 +45,16 @@
     flex-direction: column;
     gap: 10px;
     margin-right: 20px;
-    width: 461px;
-    height: 584px;
 }
-.foto{
-    width: 150px; 
+.fotoUno{
+    width: 300px; 
     height: auto;
+    transform: translate(10px, 50px);
+}
+.fotoDos{
+    width: 300px; 
+    height: auto;
+    transform: translate(50px, 90px);
 }
 .sobre{
     color: #000000;
@@ -61,9 +66,22 @@
     font-family: "Roboto Slab", serif;
     font-size: 36px;
 }
+.nuestra{
+    color: #000000;
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    text-align: right;
+}
+.mision{
+    color: #A14CAF;
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    text-align: right;
+}
 .parrafo{
     font-family: "Poppins", sans-serif;
-    font-size:  24px;
+    font-size:  17px;
+    color: #000000;
 }
 .cuadrado{
     width: 100vw;
@@ -73,5 +91,10 @@
 .cuadradoDos{
     width: 100vw;
     height: 10vh;
-    background-color: #F6E75E;
+    background-color: white;
+}
+.fotoTres{
+    width: 300px; 
+    height: auto;
+    transform: translate(50px, 200px);
 }

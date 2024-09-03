@@ -3,13 +3,16 @@ import "./QuienesSomos.css";
 import foto_1 from "../QuienesSomos/img/foto_1.png";
 import foto_2 from "../QuienesSomos/img/foto_2.png";
 import foto_3 from "../QuienesSomos/img/foto_3.png";
-import fondo from "../QuienesSomos/img/foto_perro.png";
+import rectangulo_1 from "../QuienesSomos/img/rectangulo_1.png"
+
 
 function QuienesSomos() {
   return (
     <main className="fondoDelMain">
       <div className="cuadradoDos"></div>
+      
       <div className="imagenDeFondo">
+      
         <h2 class="tituloQuienesSomos">REFUGIO PELUDITOS</h2>
       </div>
       <div className="contenedor">
@@ -38,15 +41,15 @@ function QuienesSomos() {
           <br />
         </div>
         <div className="imagenes">
-          <img className="foto" src={foto_1} />
-          <img className="foto" src={foto_2} />
+          <img className="fotoUno" src={foto_1} />
+          <img className="fotoDos" src={foto_2} />
         </div>
       </div>
 
       <div className="contenedorDos">
         <div className="texto">
-          <h3 className="sobre">Nuestra</h3>
-          <h3 className="nosotros">Mision</h3>
+          <h3 className="nuestra">Nuestra</h3>
+          <h3 className="mision">Misión</h3>
           <br />
           <p className="parrafo">
             Peluditos nace en el año 2010 con el primer rescate en la provincia
@@ -68,7 +71,7 @@ function QuienesSomos() {
           <br />
         </div>
         <div className="imagenes">
-          <img className="foto" src={foto_3} />
+          <img className="fotoTres" src={foto_3} />
         </div>
       </div>
       <div className="cuadrado"></div>
