@@ -1,0 +1,79 @@
+.rectanguloUno{
+    height: auto;
+    width: 100%;
+}
+.rectanguloDos{
+    height: auto;
+    width: 100%;
+}
+.imagenContacto{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(./img/imagen_de_fondo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tituloContacto{
+    width: 657px;
+    height: 76px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+}
+.tituloUno{
+    font-family: "Roboto Slab", serif;
+    font-size: 40px;
+    text-align: center;
+}
+.tituloDos{
+    font-family: "Roboto Slab", serif;
+    font-size: 40px;
+    text-align: center;
+    color: #A14CAF;
+}
+.divContacto{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F6E75E;
+}
+.card{
+    width: 15rem;
+}
+
+.card-text{
+    font-family: "Poppins", sans-serif;
+    transform: translate(90px, -270px);
+    font-size: 20px;
+    font-weight: bold;
+}
+.textoInstagram{
+    font-family: "Poppins", sans-serif;
+    color: #CF7DDC;
+    transform: translate(90px, -250px);
+    font-size: 20px;
+}
+.iconoCasa{
+    transform: translate(120px, -350px);
+}
+.iconoInstagram{
+    transform: translate(120px, -350px);
+}
+.iconoWhatsapp{
+    transform: translate(120px, -350px);
+}
+.tituloCompleta{
+    color: #000000;
+    font-family: "Roboto Slab", serif;
+    font-size: 40px;
+}
+.tituloFormulario{
+    color: #A14CAF;
+    font-family: "Roboto Slab", serif;
+    font-size: 40px;
+}
+
