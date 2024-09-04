@@ -5,11 +5,14 @@ import foto_2 from "../QuienesSomos/img/foto_2.png";
 import foto_3 from "../QuienesSomos/img/foto_3.png";
 import rectangulo_1 from "../QuienesSomos/img/rectangulo_1.png";
 import rectangulo_2 from "../QuienesSomos/img/rectangulo_2.png";
+import rectangulo_blanco from "../QuienesSomos/img/rectangulo_blanco.png";
+import fondo_amarillo from "../QuienesSomos/img/fondo_amarillo.png";
 
 
 function QuienesSomos() {
   return (
     <main className="fondoDelMain">
+      <br />
       <img className="rectanguloUno" src={rectangulo_1} />
       <div className="imagenDeFondo">
         <h2 class="tituloQuienesSomos">REFUGIO PELUDITOS</h2>
@@ -74,7 +77,7 @@ function QuienesSomos() {
           <img className="fotoTres" src={foto_3} />
         </div>
       </div>
-      <div className="cuadrado"></div>
+      
     </main>
   );
 }

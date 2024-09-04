@@ -1,22 +1,22 @@
+
 .imagenDeFondo{
     display: flex;
-    height: 500px;
-    width: 1300px;
+    height: 60vh;
+    width: 100%;
     justify-content: space-evenly;
     align-items: center;
     background-image: url(./img/foto_de_fondo.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-position: right center;
 }
 .rectanguloUno{
     height: auto;
-    width: 1300px;
+    width: 100%;
 }
 .rectanguloDos{
     height: auto;
-    width: 1300px;
+    width: 100%;
 }
 .tituloQuienesSomos{
     width: 657px;
@@ -32,24 +32,24 @@
     justify-content:  space-around;
     padding: 20px;
     gap: 20px;
+    background-image: url('./img/fondo_amarillo.png');
 }
 .contenedorDos{
     display: flex;
     flex-direction: row;
     justify-content:  space-evenly;
+    background-color: #F6E75E;
     padding: 20px;
-    gap: 20px;
 }
 .texto{
     flex: 1;
-    margin-bottom: 20px;
-    max-width: 50%
+    max-width: 600px; 
 }
 .imagenes{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-right: 20px;
+    
 }
 .fotoUno{
     width: 300px; 
@@ -85,16 +85,12 @@
 }
 .parrafo{
     font-family: "Poppins", sans-serif;
-    font-size:  17px;
+    font-size:  1rem;
     color: #000000;
-}
-.cuadrado{
-    width: 100vw;
-    height: 10vh;
-    background-color: white;
+    line-height: 1.6;
 }
 .fotoTres{
     width: 300px; 
     height: auto;
-    transform: translate(50px, 200px);
+    transform: translate(10px, 100px);
 }
