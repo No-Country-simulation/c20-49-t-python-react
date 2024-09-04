@@ -10,6 +10,7 @@ function NavBar(){
                     <ul>
                         <li><Link className="nav-link" to={'/'}>Home</Link></li>
                         <li><Link className="nav-link" to={'/QuienesSomos'}>Quienes Somos</Link></li>
+                        <li><Link className="nav-link" to={'/Contacto'}>Contacto</Link></li>
                     </ul>
                 </div>
                 <hr />
