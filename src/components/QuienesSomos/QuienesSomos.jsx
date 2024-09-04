@@ -77,7 +77,7 @@ function QuienesSomos() {
           <img className="fotoTres" src={foto_3} />
         </div>
       </div>
-      
+      <div class="cuadrado"></div>
     </main>
   );
 }

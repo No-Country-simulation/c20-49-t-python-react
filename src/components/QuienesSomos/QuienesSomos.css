@@ -94,3 +94,8 @@
     height: auto;
     transform: translate(10px, 100px);
 }
+.cuadrado{
+    width: 100px; 
+    height: 70px; 
+    background-color: #FFFFFF;
+}
