@@ -1,42 +1,72 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* Navbar */
+
+.nav {
+  background-color: white;
+}
+
+.nav .nav-link {
+  margin: 0 35px;
+  color: black;
+  margin-top: 1rem;
+  font-family: "Roboto Slab", serif;
+}
+
+.icon-container img {
+  margin: 0 6px;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1rem;
+  align-items: center;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo img {
+  margin: 5px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Footer */
+
+.pieDePagina {
+  background-color: #f6e75e;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16rem;
+  justify-content: center;
+  padding: 1rem;
 }
 
-.card {
-  padding: 2em;
+.email-input-container {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  width: auto;
 }
 
-.read-the-docs {
-  color: #888;
+.email-input {
+  border: none;
+  outline: none;
+  background-color: #f5eb91;
+  font-size: 16px;
+}
+
+.icon {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.footUno,
+.footDos,
+.footTres {
+  margin-top: 2rem;
+}
+
+.soport {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
