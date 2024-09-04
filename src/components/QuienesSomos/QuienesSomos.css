@@ -39,7 +39,8 @@
     flex-direction: row;
     justify-content:  space-evenly;
     background-color: #F6E75E;
-    padding: 20px;
+    padding: 10px;
+    
 }
 .texto{
     flex: 1;
@@ -54,12 +55,17 @@
 .fotoUno{
     width: 300px; 
     height: auto;
-    transform: translate(10px, 50px);
+    transform: translate(10px, -140px);
 }
 .fotoDos{
     width: 300px; 
     height: auto;
-    transform: translate(50px, 90px);
+    transform: translate(100px, -120px);
+}
+.group{
+    width: 300px; 
+    height: auto;
+    transform: translate(-70px, -100px);
 }
 .sobre{
     color: #000000;
@@ -98,4 +104,9 @@
     width: 100px; 
     height: 70px; 
     background-color: #FFFFFF;
+}
+.vector{
+    height: auto;
+    width: 100px;
+    transform: translate(300px, 40px);
 }
