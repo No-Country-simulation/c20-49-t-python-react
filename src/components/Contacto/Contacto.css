@@ -1,3 +1,10 @@
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0; 
+}
 .rectanguloUno{
     height: auto;
     width: 100%;
@@ -39,22 +46,23 @@
 .divContacto{
     display: flex;
     justify-content: space-evenly;
-    background-color: #F6E75E;
+   
 }
 .card{
     width: 15rem;
+    position: relative;
 }
 
 .card-text{
     font-family: "Poppins", sans-serif;
-    transform: translate(90px, -270px);
+    transform: translate(30px, -270px);
     font-size: 20px;
     font-weight: bold;
 }
 .textoInstagram{
     font-family: "Poppins", sans-serif;
     color: #CF7DDC;
-    transform: translate(90px, -250px);
+    transform: translate(20px, -270px);
     font-size: 20px;
 }
 .iconoCasa{
