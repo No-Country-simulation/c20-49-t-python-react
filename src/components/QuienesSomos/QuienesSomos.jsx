@@ -80,7 +80,6 @@ function QuienesSomos() {
           <img className="vector" src={Vector} />
         </div>
       </div>
-      <div class="cuadrado"></div>
     </main>
   );
 }

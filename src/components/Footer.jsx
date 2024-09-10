@@ -1,10 +1,12 @@
 import "../App.css";
 import Links from "../assets/social Links.png";
 import Send from "../assets/vector.png";
+import fondofooter from "./Contacto/img/fondofooter.png";
 
 export const Footer = () => {
   return (
     <>
+    <img src={fondofooter} className="fondoFooter" />
       <div className="pieDePagina">
         <div className="footUno">
           <h6>Copyright © 2024 Peluditos</h6>
