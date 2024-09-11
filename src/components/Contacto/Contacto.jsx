@@ -23,11 +23,11 @@ function Contacto() {
       </div>
       <img className="rectanguloDos" src={rectangulo_2} />
       <div className="divTituloTres">
-      <h3 className="tituloUno">
-        Enterate de nuestras <br />
-        maneras de
-      </h3>
-      <h3 className="tituloDos">contactarnos</h3>
+        <h3 className="tituloUno">
+          Enterate de nuestras <br />
+          maneras de
+        </h3>
+        <h3 className="tituloDos">contactarnos</h3>
       </div>
 
       <div className="contenedorPrincipal">
@@ -78,35 +78,43 @@ function Contacto() {
           </div>
         </div>
 
-        <div>
-          <h4 className="tituloCompleta">Completá el</h4>
-          <h4 className="tituloFormulario">Formulario</h4>
-          <div className="divFormulario">
-            <form action="#" method="post">
-              <input
-                type="text"
-                placeholder="Ingresa tu nombre"
-                name="nombre"
-              />
-              <br />
-              <input
-                type="text"
-                placeholder="Ingresa tu apellido"
-                name="apellido"
-              />
-              <br />
-              <input type="email" placeholder="Ingresa tu mail" name="mail" />
-              <br />
-              <input
-                className="btn boton"
-                type="submit"
-                for="enviar nombre"
-                value="enviar"
-              />
-            </form>
-            <img src={img_gato} className="imgGato" />
+        <div className="formularioContainer">
+          <div className="contenidoFormulario">
+            <div className="tituloFormulario">
+              <h4 className="tituloCompleta">Completá el</h4>
+              <h4 className="tituloFormulario">Formulario</h4>
+            </div>
+            <div className="divFormulario">
+              <form action="#" method="post">
+                <input
+                  type="text"
+                  placeholder="Ingresa tu nombre"
+                  name="nombre"
+                />
+                <br />
+                <input
+                  type="text"
+                  placeholder="Ingresa tu apellido"
+                  name="apellido"
+                />
+                <br />
+                <input type="email" placeholder="Ingresa tu mail" name="mail" />
+                <br />
+                <input
+                  className="btn boton"
+                  type="submit"
+                  for="enviar nombre"
+                  value="enviar"
+                />
+              </form>
+              <div className="imagenGato">
+                <img src={img_gato} className="imgGato" />
+              </div>
+            </div>
           </div>
         </div>
+
+
       </div>
       <br />
       <br />
