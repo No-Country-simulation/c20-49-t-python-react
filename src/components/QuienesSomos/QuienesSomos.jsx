@@ -6,9 +6,7 @@ import foto_3 from "../QuienesSomos/img/foto_3.png";
 import rectangulo_1 from "../QuienesSomos/img/rectangulo_1.png";
 import rectangulo_2 from "../QuienesSomos/img/rectangulo_2.png";
 import Group from "../QuienesSomos/img/Group.png";
-import Vector from "../QuienesSomos/img/Vector.png"
-
-
+import Vector from "../QuienesSomos/img/Vector.png";
 
 function QuienesSomos() {
   return (
@@ -16,7 +14,7 @@ function QuienesSomos() {
       <br />
       <img className="rectanguloUno" src={rectangulo_1} />
       <div className="imagenDeFondo">
-        <h2 class="tituloQuienesSomos">REFUGIO PELUDITOS</h2>
+        <h2 className="tituloQuienesSomos">REFUGIO PELUDITOS</h2>
       </div>
       <img className="rectanguloDos" src={rectangulo_2} />
       <div className="contenedor">
@@ -80,7 +78,7 @@ function QuienesSomos() {
           <img className="vector" src={Vector} />
         </div>
       </div>
-      <div class="cuadrado"></div>
+      <div className="cuadrado"></div>
     </main>
   );
 }

@@ -1,0 +1,16 @@
+.letraNegra {
+  color: #000000;
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+}
+.letraVioleta {
+  color: #a14caf;
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+}
+.parrafo {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: #000000;
+  line-height: 1.6;
+}
