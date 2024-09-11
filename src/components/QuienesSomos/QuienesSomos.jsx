@@ -7,6 +7,7 @@ import rectangulo_1 from "../QuienesSomos/img/rectangulo_1.png";
 import rectangulo_2 from "../QuienesSomos/img/rectangulo_2.png";
 import Group from "../QuienesSomos/img/Group.png";
 import Vector from "../QuienesSomos/img/Vector.png";
+import rectangulo_blanco from "../QuienesSomos/img/rectangulo_blanco.png";
 
 function QuienesSomos() {
   return (
@@ -78,8 +79,9 @@ function QuienesSomos() {
           <img className="vector" src={Vector} />
         </div>
       </div>
-      <div className="cuadrado"></div>
-
+      <div className="cuadrado">
+        <img className="fotoRectanguloBlanco" src={rectangulo_blanco} />
+      </div>
     </main>
   );
 }

@@ -102,13 +102,13 @@
     height: auto;
     transform: translate(10px, 100px);
 }
-.cuadrado{
-    width: 100px; 
-    height: 70px; 
-    background-color: #FFFFFF;
-}
+
 .vector{
     height: auto;
     width: 100px;
     transform: translate(300px, 40px);
+}
+.fotoRectanguloBlanco{
+    height: 100px;
+    width: 100px;
 }
