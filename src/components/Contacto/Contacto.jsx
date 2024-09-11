@@ -22,11 +22,13 @@ function Contacto() {
         </h2>
       </div>
       <img className="rectanguloDos" src={rectangulo_2} />
+      <div className="divTituloTres">
       <h3 className="tituloUno">
         Enterate de nuestras <br />
         maneras de
       </h3>
       <h3 className="tituloDos">contactarnos</h3>
+      </div>
 
       <div className="contenedorPrincipal">
         <div className="divCard">
@@ -106,6 +108,9 @@ function Contacto() {
           </div>
         </div>
       </div>
+      <br />
+      <br />
+      <br />
     </main>
   );
 }

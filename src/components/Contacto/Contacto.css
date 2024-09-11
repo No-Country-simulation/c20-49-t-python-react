@@ -1,7 +1,6 @@
 .contenedorPrincipal{
-    background-image: url('./img/fondo2.png');
+    background-image: url('./img/fondo.jpg');
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
 
 }
@@ -32,6 +31,9 @@
     font-family: "Roboto Slab", serif;
     font-size: 36px;
 }
+.divTitulo{
+    margin: 20px;
+}
 .tituloUno{
     font-family: "Roboto Slab", serif;
     font-size: 40px;
@@ -49,8 +51,8 @@
     flex-wrap: wrap;
 }
 .card{
-    max-width: 200px;
-    max-height: 320px;
+    max-width: 250px;
+    max-height: 250px;
     padding: 20px;
     border-radius: 10px;
     box-sizing: border-box; 
@@ -66,24 +68,26 @@
 .circulo{
     display: block;
     height: auto;
-    margin: 0 auto 15px auto; 
+    transform: translate(2%, -70%); 
 }
 
 .card-text{
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: bold;
+    transform: translate(5%, -80%);
 }
 .textoInstagram{
     font-family: "Poppins", sans-serif;
     color: #CF7DDC;
     font-size: 20px;
+    transform: translate(2%, -70%);
 }
 .iconoCasa{
     position: absolute; 
     top: 50%; 
     left: 50%; 
-    transform: translate(-90%, -120%); 
+    transform: translate(-50%, -300%); 
     width: 60px;  
     height: 60px; 
 }
@@ -91,7 +95,7 @@
     position: absolute; 
     top: 50%; 
     left: 50%; 
-    transform: translate(-50%, -150%); 
+    transform: translate(-50%, -360%); 
     width: 60px;  
     height: 60px; 
 }
@@ -99,7 +103,7 @@
     position: absolute; 
     top: 50%; 
     left: 50%; 
-    transform: translate(-40%, -120%); 
+    transform: translate(-50%, -380%); 
     width: 60px;  
     height: 60px; 
 }
@@ -128,5 +132,6 @@ form{
 }
 .imgGato{
     height: auto;
-    display: flex;
+    margin: 20px;
+    
 }
