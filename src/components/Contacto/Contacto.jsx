@@ -3,7 +3,6 @@ import "./Contacto.css";
 import { Link } from "react-router-dom";
 import rectangulo_1 from "../QuienesSomos/img/rectangulo_1.png";
 import rectangulo_2 from "../QuienesSomos/img/rectangulo_2.png";
-import Captura from "../Contacto/img/Captura.png";
 import icono_casa from "../Contacto/img/icono_casa.png";
 import icono_instagram from "../Contacto/img/icono_instagram.png";
 import icono_whatsapp from "../Contacto/img/icono_whatsapp.png";
@@ -88,17 +87,18 @@ function Contacto() {
               <form action="#" method="post">
                 <input
                   type="text"
-                  placeholder="Ingresa tu nombre"
+                  placeholder="Nombre y Apellido"
                   name="nombre"
                 />
                 <br />
+                <input type="email" placeholder="Ingresa tu mail" name="mail" />
+                <br />
                 <input
                   type="text"
-                  placeholder="Ingresa tu apellido"
-                  name="apellido"
+                  placeholder="¿Necesitas ayuda? ¡Escribinos!"
+                  name="texto"
+                  id="campoTexto"
                 />
-                <br />
-                <input type="email" placeholder="Ingresa tu mail" name="mail" />
                 <br />
                 <input
                   className="btn boton"
@@ -113,12 +113,8 @@ function Contacto() {
             </div>
           </div>
         </div>
-
-
       </div>
-      <br />
-      <br />
-      <br />
+      <img src={fondofooter} className="footerFondo" />
     </main>
   );
 }
