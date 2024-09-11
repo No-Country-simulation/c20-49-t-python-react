@@ -33,6 +33,8 @@
     padding: 20px;
     gap: 20px;
     background-image: url('./img/fondo_amarillo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .contenedorDos{
     display: flex;
