@@ -2,7 +2,6 @@
     background-image: url('./img/fondo.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 .rectanguloUno{
     height: auto;
@@ -31,8 +30,8 @@
     font-family: "Roboto Slab", serif;
     font-size: 36px;
 }
-.divTitulo{
-    margin: 20px;
+.divTituloTres{
+    margin: 50px;
 }
 .tituloUno{
     font-family: "Roboto Slab", serif;
@@ -49,7 +48,8 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-}
+    margin: -16px;
+    padding: 189px;}
 .card{
     max-width: 250px;
     max-height: 250px;
