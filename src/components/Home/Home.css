@@ -1,16 +1,54 @@
-.letraNegra {
-  color: #000000;
-  font-family: "Roboto Slab", serif;
-  font-size: 36px;
+.section {
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
 }
+
+.section-1,
+.section-2,
+.section-3,
+.section-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.text-content,
+.mascotas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgGato,
+.perrito1,
+.gatito1,
+.gatito2,
+.imgUno,
+.imgDos {
+  width: 250px;
+  height: auto;
+  margin: 20px;
+}
+
+.letraNegra,
+.letraVioleta {
+  font-family: "Roboto Slab", serif;
+}
+
+.letraNegra {
+  color: #000;
+}
+
 .letraVioleta {
   color: #a14caf;
-  font-family: "Roboto Slab", serif;
-  font-size: 36px;
 }
+
 .parrafo {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
-  color: #000000;
+  color: #000;
   line-height: 1.6;
+  margin: 20px;
 }
