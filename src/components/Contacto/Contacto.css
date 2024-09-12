@@ -1,9 +1,7 @@
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0; 
+.contenedorPrincipal{
+    background-image: url('./img/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .rectanguloUno{
     height: auto;
@@ -32,6 +30,9 @@ img {
     font-family: "Roboto Slab", serif;
     font-size: 36px;
 }
+.divTituloTres{
+    margin: 30px;
+}
 .tituloUno{
     font-family: "Roboto Slab", serif;
     font-size: 40px;
@@ -43,37 +44,82 @@ img {
     text-align: center;
     color: #A14CAF;
 }
-.divContacto{
+.divCard{
     display: flex;
     justify-content: space-evenly;
-   
-}
+    flex-wrap: wrap;
+    margin: -16px;
+    padding: 189px;}
 .card{
-    width: 15rem;
+    max-width: 250px;
+    max-height: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box; 
+    text-align: center; 
+}
+.card-content {
+    position: relative; 
+  }
+.icon-container {
     position: relative;
+    display: inline-block;
+  }
+.circulo{
+    display: block;
+    height: auto;
+    transform: translate(2%, -70%); 
 }
 
 .card-text{
     font-family: "Poppins", sans-serif;
-    transform: translate(30px, -270px);
     font-size: 20px;
     font-weight: bold;
+    transform: translate(3%, -100%);
 }
 .textoInstagram{
     font-family: "Poppins", sans-serif;
     color: #CF7DDC;
-    transform: translate(20px, -270px);
     font-size: 20px;
+    transform: translate(2%, -210%);
 }
 .iconoCasa{
-    transform: translate(85px, -280px);
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-70%, -300%); 
+    width: 60px;  
+    height: 60px; 
 }
 .iconoInstagram{
-    transform: translate(85px, -280px);
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-60%, -320%); 
+    width: 60px;  
+    height: 60px; 
 }
 .iconoWhatsapp{
-    transform: translate(85px, -280px);
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-70%, -300%); 
+    width: 60px;  
+    height: 60px; 
 }
+.formularioContainer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    margin-left: 140px;
+  }
+.contenidoFormulario {
+    flex: 1;
+    margin-right: 20px; 
+  }
+.tituloFormulario {
+    margin-bottom: 20px;
+  }
 .tituloCompleta{
     color: #000000;
     font-family: "Roboto Slab", serif;
@@ -84,4 +130,37 @@ img {
     font-family: "Roboto Slab", serif;
     font-size: 40px;
 }
-
+form{
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+.divFormulario{
+    display: flex;
+    flex-direction: column;
+    
+}
+.imagenGato {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+  }
+.imgGato{
+    height: auto;
+    max-width: 100%; 
+    transform: translate(-10%, -85%);
+}
+input {
+    border-radius: 12px;
+    border: none;
+    padding: 8px; 
+  }
+#campoTexto {
+    width: 400px; 
+    height: 280px;
+    box-sizing: border-box; 
+    background-color: #fff;
+  }
