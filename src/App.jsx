@@ -15,11 +15,11 @@ function App() {
         <CustomNavbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Home" element={<Home />} />
-          <Route path="/QuienesSomos" element={<QuienesSomos />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/quienesSomos" element={<QuienesSomos />} />
           <Route path="/adopta" element={<Adopta />} />
-          <Route path="/Colabora" element={<Colabora />} />
-          <Route path="/Contacto" element={<Contacto />} />
+          <Route path="/colabora" element={<Colabora />} />
+          <Route path="/contacto" element={<Contacto />} />
         </Routes>
         <Footer />
       </BrowserRouter>
