@@ -1,0 +1,11 @@
+.tituloColabora {
+  width: 100%;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+}

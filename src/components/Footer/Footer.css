@@ -1,0 +1,14 @@
+.footer {
+  background-color: #f6e75e;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.tituloFooter {
+  font-family: "Roboto Slab", serif;
+}
+.textoFooter {
+  font-family: "Poppins", sans-serif;
+}

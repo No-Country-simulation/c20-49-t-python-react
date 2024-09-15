@@ -1,0 +1,146 @@
+
+.div-padre {
+    width: 100%; /* El contenedor ocupa todo el ancho disponible */
+}
+
+.div-padre .img-a {
+    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+    height: 140px; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina cualquier espacio en blanco debajo de la imagen */
+}
+.div-padre .img-b{
+    width: 100%;
+    height: 523px;
+}
+
+.img-b-container h2 {
+    position: absolute;
+    font-size: 64px; /* Tamaño grande del texto */
+    font-weight: 600;
+    line-height: 76px;
+    width: 657px;
+    height: 152px;
+    top: 85%; /* Ajusta para centrar el h2 verticalmente */
+    left: 50%; /* Centra el h2 horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta para centrar completamente */
+    color: white; /* Asegura visibilidad del texto */
+    z-index: 1; /* Asegura que el texto esté por encima de la imagen */
+    text-align: center; /* Centra el texto en el contenedor */
+    line-height: 1.2; /* Controla el espacio entre las dos líneas */
+    
+}
+.img-c {
+    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+    height: 140px; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina cualquier espacio en blanco debajo de la imagen */
+    transform: rotate(180deg); /* Rota la imagen 180 grados */
+}
+.section-mascota{
+    width: 100%;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h2-mascota{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    align-items: center;
+}
+span{
+    color: #CF7DDC;
+}
+.section-mascota2{
+    background-color: #F6E75E;
+    width: 100%;
+    height: 65rem;
+    gap: 200px;
+    transform: translateY(100px);
+}
+
+.section-p{
+    width: 375px;
+    height: 86px;
+    top: 1534px;
+    left: 257px;
+    border-radius: 100px;
+    background-color: #CF7DDC;
+    transform: translateY(-20px); /* Mueve hacia arriba */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.section-p p{
+    color: #fff;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 76px;
+    align-items: center;
+}
+.image-container {
+    position: relative;
+    width: max-content; /* Ajusta al tamaño de la imagen más grande */
+  }
+  
+  .image1 {
+    position: absolute;
+    top: 0; /* Puedes ajustar estos valores según necesites */
+    left: 0;
+    z-index: 1; /* La imagen de fondo se mantiene detrás */
+  }
+  
+  .image2 {
+    position: relative;
+    background-color: red;
+    width: 100%;
+  }
+  .div-padre-p{
+    display: flex;
+    gap: 200px;
+  }
+.section-img-footer{
+    width: 100%;
+}
+.section-img-footer img{
+    width: 100%;
+}
+
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dog-image {
+    position: relative;
+    z-index: 1;
+    width: 320px; /* Ajusta según tus necesidades */
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Esto centra la imagen */
+    position: absolute;
+    margin-top: 1rem;
+  }
+  .border-image {
+    position: relative;
+    z-index: 2;
+    width: 340px; /* Ajusta para que sea un poco más grande que la imagen del perro */
+    height: auto;
+    margin-top: 2rem;
+  }
+  .conocer{
+    width: 127px;
+    height: 52px;
+    background-color: #CF7DDC;
+    border-radius: 4px;
+    padding: 14px 32px 14px 32px;
+  }
+  .conocer p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+  }

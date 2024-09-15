@@ -1,6 +1,114 @@
+
+.imagenDeFondo{
+    display: flex;
+    height: 60vh;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(./img/foto_de_fondo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.rectanguloUno{
+    height: auto;
+    width: 100%;
+}
+.rectanguloDos{
+    height: auto;
+    width: 100%;
+}
 .tituloQuienesSomos{
     width: 657px;
     height: 76px;
     text-align: center;
+    color: #FFFFFF;
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:  space-around;
+    padding: 20px;
+    gap: 20px;
+    background-image: url('./img/fondo_amarillo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contenedorDos{
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-evenly;
+    background-color: #F6E75E;
+    padding: 10px;
     
+}
+.texto{
+    flex: 1;
+    max-width: 600px; 
+}
+.imagenes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.fotoUno{
+    width: 300px; 
+    height: auto;
+    transform: translate(10px, -140px);
+}
+.fotoDos{
+    width: 300px; 
+    height: auto;
+    transform: translate(100px, -120px);
+}
+.group{
+    width: 300px; 
+    height: auto;
+    transform: translate(-70px, -100px);
+}
+.sobre{
+    color: #000000;
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+}
+.nosotros{
+    color: #A14CAF;
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+}
+.nuestra{
+    color: #000000;
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    text-align: right;
+}
+.mision{
+    color: #A14CAF;
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    text-align: right;
+}
+.parrafo{
+    font-family: "Poppins", sans-serif;
+    font-size:  1rem;
+    color: #000000;
+    line-height: 1.6;
+}
+.fotoTres{
+    width: 300px; 
+    height: auto;
+    transform: translate(10px, 100px);
+}
+
+.vector{
+    height: auto;
+    width: 100px;
+    transform: translate(300px, 40px);
+}
+.fotoRectanguloBlanco{
+    height: 100px;
+    width: 100px;
 }

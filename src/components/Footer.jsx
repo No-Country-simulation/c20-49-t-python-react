@@ -1,10 +1,12 @@
-import "../../components/Footer/Footer.css";
-import Links from "../../assets/Social_Links.png";
-/* import Send from "../../assets/vector.png"; */
+import "../App.css";
+import Links from "../assets/social Links.png";
+import Send from "../assets/vector.png";
+import fondofooter from "./Contacto/img/fondofooter.png";
 
 export const Footer = () => {
   return (
     <>
+    <img src={fondofooter} className="fondoFooter" />
       <div className="pieDePagina">
         <div className="footUno">
           <h6>Copyright © 2024 Peluditos</h6>
@@ -12,10 +14,10 @@ export const Footer = () => {
         </div>
         <div className="footDos soport">
           <h4 style={{ width: "160px", height: "28px" }}>Soporte</h4>
-          <h6>Centro de atención</h6>
-          <h6>Términos de servicio</h6>
-          <h6>Legal</h6>
-          <h6>Política de privacidad</h6>
+          <h7>Centro de atención</h7>
+          <h7>Términos de servicio</h7>
+          <h7>Legal</h7>
+          <h7>Política de privacidad</h7>
         </div>
         <div className="footTres">
           <h4 style={{ width: "160px", height: "28px" }}>Contacto</h4>
