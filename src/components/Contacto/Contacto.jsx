@@ -9,6 +9,7 @@ import icono_whatsapp from "../Contacto/img/icono_whatsapp.png";
 import img_gato from "../Contacto/img/img_gato.png";
 import circulo from "../Contacto/img/circulo.png";
 import fondofooter from "../Contacto/img/fondofooter.png";
+import estrella from "../Contacto/img/estrella.png";
 
 function Contacto() {
   return (
@@ -101,20 +102,21 @@ function Contacto() {
                 />
                 <br />
                 <input
-                  className="btn boton"
+                  className="boton"
                   type="submit"
                   for="enviar nombre"
-                  value="enviar"
+                  value="Enviar"
                 />
               </form>
               <div className="imagenGato">
                 <img src={img_gato} className="imgGato" />
               </div>
+              <img src={estrella} className="estrella" />
             </div>
           </div>
         </div>
+        <img src={fondofooter}/>
       </div>
-      <img src={fondofooter} className="footerFondo" />
     </main>
   );
 }

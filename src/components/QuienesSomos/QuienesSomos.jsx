@@ -9,6 +9,7 @@ import Group from "../QuienesSomos/img/Group.png";
 import Vector from "../QuienesSomos/img/Vector.png";
 import rectangulo_blanco from "../QuienesSomos/img/rectangulo_blanco.png";
 
+
 function QuienesSomos() {
   return (
     <main className="fondoDelMain">
@@ -73,14 +74,12 @@ function QuienesSomos() {
             misma situación.
           </p>
           <br />
+          <img src={rectangulo_blanco} className="rectanguloBlanco"/>
         </div>
         <div className="imagenes">
           <img className="fotoTres" src={foto_3} />
-          <img className="vector" src={Vector} />
+          <img className="vector" src={Vector} /> 
         </div>
-      </div>
-      <div className="cuadrado">
-        <img className="fotoRectanguloBlanco" src={rectangulo_blanco} />
       </div>
     </main>
   );
