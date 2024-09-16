@@ -68,7 +68,7 @@
 .circulo{
     display: block;
     height: auto;
-    transform: translate(2%, -70%); 
+    transform: translate(12%, -70%); 
 }
 
 .card-text{
@@ -87,7 +87,7 @@
     position: absolute; 
     top: 50%; 
     left: 50%; 
-    transform: translate(-70%, -300%); 
+    transform: translate(-50%, -300%); 
     width: 60px;  
     height: 60px; 
 }
@@ -95,7 +95,7 @@
     position: absolute; 
     top: 50%; 
     left: 50%; 
-    transform: translate(-60%, -320%); 
+    transform: translate(-50%, -320%); 
     width: 60px;  
     height: 60px; 
 }
@@ -103,7 +103,7 @@
     position: absolute; 
     top: 50%; 
     left: 50%; 
-    transform: translate(-70%, -300%); 
+    transform: translate(-50%, -300%); 
     width: 60px;  
     height: 60px; 
 }
@@ -164,3 +164,20 @@ input {
     box-sizing: border-box; 
     background-color: #fff;
   }
+.estrella{
+    height: 200px;
+    width: 200px;
+    transform: translate(450%, -550%);
+}
+.boton{
+    background-color: #A14CAF;
+    color: white;
+    border: none;
+    font-family: "Roboto Slab", serif;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 4px 2px;
+}
+.boton:hover{
+    background-color: #CF7DDC;
+}

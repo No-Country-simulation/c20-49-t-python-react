@@ -102,15 +102,16 @@ function Contacto() {
                 />
                 <br />
                 <input
-                  className="btn boton"
+                  className="boton"
                   type="submit"
                   for="enviar nombre"
-                  value="enviar"
+                  value="Enviar"
                 />
               </form>
               <div className="imagenGato">
                 <img src={img_gato} className="imgGato" />
               </div>
+              <img src={estrella} className="estrella" />
             </div>
           </div>
         </div>
