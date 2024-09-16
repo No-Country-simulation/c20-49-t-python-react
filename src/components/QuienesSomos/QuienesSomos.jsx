@@ -9,6 +9,7 @@ import Group from "../QuienesSomos/img/Group.png";
 import Vector from "../QuienesSomos/img/Vector.png";
 import rectangulo_blanco from "../QuienesSomos/img/rectangulo_blanco.png";
 
+
 function QuienesSomos() {
   return (
     <main className="fondoDelMain">

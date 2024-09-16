@@ -149,9 +149,9 @@ form{
     
   }
 .imgGato{
-    height: auto;
-    max-width: 100%; 
-    transform: translate(-10%, -85%);
+    height: 500px;
+    width: 500px;
+    transform: translate(-10%, -120%);
 }
 input {
     border-radius: 12px;

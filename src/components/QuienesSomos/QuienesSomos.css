@@ -109,6 +109,7 @@
     transform: translate(300px, 40px);
 }
 .fotoRectanguloBlanco{
-    height: 100px;
-    width: 100px;
+    height: auto;
+    width: 100%;
 }
+
