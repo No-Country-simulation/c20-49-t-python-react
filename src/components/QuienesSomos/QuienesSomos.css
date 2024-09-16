@@ -96,6 +96,7 @@
     font-size:  1rem;
     color: #000000;
     line-height: 1.6;
+    font-weight: bold;
 }
 .fotoTres{
     width: 300px; 
@@ -108,8 +109,9 @@
     width: 100px;
     transform: translate(300px, 40px);
 }
-.fotoRectanguloBlanco{
+
+.rectanguloBlanco{
     height: auto;
-    width: 100%;
+    transform: translate(-160px, 40px);
 }
 
