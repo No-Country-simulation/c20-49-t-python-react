@@ -116,7 +116,6 @@ function Contacto() {
           </div>
         </div>
       </div>
-      <img src={fondofooter} className="footerFondo" />
     </main>
   );
 }
