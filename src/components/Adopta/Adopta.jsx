@@ -1,31 +1,17 @@
 import React from "react";
 import "./Adopta.css";
 import { Link } from "react-router-dom";
+import rectangulo_1 from "../QuienesSomos/img/rectangulo_1.png";
+import rectangulo_2 from "../QuienesSomos/img/rectangulo_2.png";
 
 const Adopta = () => {
   return (
     <main>
-      <div className="div-padre">
-        <img
-          className="img-a"
-          src="/src/assets/AdoptaImg/Rectangle 47.png"
-          alt="imgRectangle"
-        />
-        <section className="img-b-container">
-          <img
-            className="img-b"
-            src="/src/assets/AdoptaImg/image 2.png"
-            alt="ImgPerrito"
-          />
-          <h2>
-            Encontrá a tu mejor <br /> amigo
-          </h2>
-        </section>
-        <img
-          className="img-c"
-          src="/src/assets/AdoptaImg/Rectangle 47.png"
-          alt="imgRectangle"
-        />
+      <img className="rectanguloUno" src={rectangulo_1} />
+      <div className="imagenDeFondoAdoptaGeneral">
+      <h2 className="tituloAdopta">Encontrá a tu mejor amigo</h2>
+      </div>
+      <img className="rectanguloDos" src={rectangulo_2} />
         <section className="section-mascota">
           <h2 className="h2-mascota">
             Cual va a ser tu <br /> futura <span>mascota</span>?
@@ -153,7 +139,7 @@ const Adopta = () => {
             <img src="/src/assets/AdoptaImg/Rectangle 46.png" alt="" />
           </section>
         </section>
-      </div>
+      
     </main>
 
   );
