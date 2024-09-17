@@ -25,6 +25,8 @@
     background-image: url('./img/rectangulo_de_fondo_perritos.png');
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 20px;
-    gap: 20px;
+}
+.tituloCinco{
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
 }

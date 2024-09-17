@@ -6,6 +6,7 @@ import perrito_1 from "../Adopta_perros/img/perrito_1.png";
 import perrito_2 from "../Adopta_perros/img/perrito_2.png";
 import perrito_3 from "../Adopta_perros/img/perrito_3.png";
 import perrito_4 from "../Adopta_perros/img/perrito_4.png";
+import rectangulo_blanco_pie_de_pagina from "../Adopta_perros/img/rectangulo_blanco_pie_de_pagina.png";
 
 
 function Adopta_perros() {
@@ -22,61 +23,62 @@ function Adopta_perros() {
       <div className="imagen_fondo_perritos">
       <div className="col-xs-6 col-sm-10 col-md-12 col-lg-12 d-flex flex-wrap justify-content-around">
     
-        <div className="cardItem" style={{ width: "17rem", height: "30rem" }}>
+        <div className="cardItem" style={{ width: "17rem", height: "25rem" }}>
           <img src={perrito_1} className="card-img-top" alt="foto"/>
             <div className="card-body">
-              <h5 className="producto text-center">canela</h5>
+              <h5 className="tituloCinco text-center">Canela</h5>
             </div>
         </div>
         
-        <div className="cardItem" style={{ width: "17rem", height: "10rem" }}>
+        <div className="cardItem" style={{ width: "17rem", height: "25rem" }}>
           <img src={perrito_2} className="card-img-top" alt="foto"/>
             <div className="card-body">
-              <h5 className="producto text-center">pocho</h5>
+              <h5 className="tituloCinco text-center">Pocho</h5>
             </div>
         </div>
 
-        <div className="cardItem" style={{ width: "17rem", height: "30rem" }}>
+        <div className="cardItem" style={{ width: "17rem", height: "25rem" }}>
           <img src={perrito_3} className="card-img-top" alt="foto"/>
             <div className="card-body">
-              <h5 className="producto text-center">luli</h5>
+              <h5 className="tituloCinco text-center">Luli</h5>
             </div>
         </div>
 
-        <div className="cardItem" style={{ width: "17rem", height: "30rem" }}>
+        <div className="cardItem" style={{ width: "17rem", height: "25rem" }}>
           <img src={perrito_4} className="card-img-top" alt="foto"/>
             <div className="card-body">
-              <h5 className="producto text-center">tomy</h5>
+              <h5 className="tituloCinco text-center">Tomy</h5>
             </div>
         </div>
 
-        <div className="cardItem" style={{ width: "17rem", height: "30rem" }}>
+        <div className="cardItem" style={{ width: "17rem", height: "25rem" }}>
           <img src={perrito_1} className="card-img-top" alt="foto"/>
             <div className="card-body">
-              <h5 className="producto text-center">canela</h5>
+              <h5 className="tituloCinco text-center">Taylor</h5>
             </div>
         </div>
         
-        <div className="cardItem" style={{ width: "17rem", height: "10rem" }}>
+        <div className="cardItem" style={{ width: "17rem", height: "25rem" }}>
           <img src={perrito_2} className="card-img-top" alt="foto"/>
             <div className="card-body">
-              <h5 className="producto text-center">pocho</h5>
+              <h5 className="tituloCinco text-center">Selena</h5>
             </div>
         </div>
 
-        <div className="cardItem" style={{ width: "17rem", height: "30rem" }}>
+        <div className="cardItem" style={{ width: "17rem", height: "25rem" }}>
           <img src={perrito_3} className="card-img-top" alt="foto"/>
             <div className="card-body">
-              <h5 className="producto text-center">luli</h5>
+              <h5 className="tituloCinco text-center">Olivia</h5>
             </div>
         </div>
 
-        <div className="cardItem" style={{ width: "17rem", height: "30rem" }}>
+        <div className="cardItem" style={{ width: "17rem", height: "25rem" }}>
           <img src={perrito_4} className="card-img-top" alt="foto"/>
             <div className="card-body">
-              <h5 className="producto text-center">tomy</h5>
+              <h5 className="tituloCinco text-center">Meredith</h5>
             </div>
         </div>
+        <img src={rectangulo_blanco_pie_de_pagina} alt="" />
 
       </div>
       </div>
