@@ -108,8 +108,8 @@ function Contacto() {
                   value="Enviar"
                 />
               </form>
-              <div className="imagenGato">
-                <img src={img_gato} className="imgGato" />
+              <div className="imagenGatoDivContacto">
+                <img src={img_gato} className="imgGatoDivContacto" />
               </div>
               <img src={estrella} className="estrella" />
             </div>

@@ -142,13 +142,13 @@ form{
     flex-direction: column;
     
 }
-.imagenGato {
+.imagenGatoDivContacto {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     
   }
-.imgGato{
+.imgGatoDivContacto{
     height: 500px;
     width: 500px;
     transform: translate(-10%, -120%);
