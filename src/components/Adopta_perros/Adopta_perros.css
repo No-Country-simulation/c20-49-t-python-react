@@ -7,3 +7,24 @@
 .perruno {
     color: #A14CAF;
 }
+.cardItem{
+    margin: 20px;
+    border-radius: 6px;
+    cursor: default;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+.cardItem:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    
+}
+.cardItem a:hover{
+    background-color: black;
+    color: black;
+}
+.imagen_fondo_perritos{
+    background-image: url('./img/rectangulo_de_fondo_perritos.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    gap: 20px;
+}
