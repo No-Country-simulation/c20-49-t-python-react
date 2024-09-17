@@ -15,6 +15,7 @@ function Adopta_perros() {
       <img className="rectanguloUno" src={rectangulo_1} />
       <div className="imagenDeFondoGatos">
         <h2 className="tituloGatos">Busca a tu compañia preferida</h2>
+        <h3>titulo de prueba</h3>
       </div>
       <img className="rectanguloDos" src={rectangulo_2} />
 
