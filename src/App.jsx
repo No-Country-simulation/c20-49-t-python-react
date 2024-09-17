@@ -10,20 +10,18 @@ import "./App.css";
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <CustomNavbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/quienesSomos" element={<QuienesSomos />} />
-          <Route path="/adopta" element={<Adopta />} />
-          <Route path="/colabora" element={<Colabora />} />
-          <Route path="/contacto" element={<Contacto />} />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <CustomNavbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/quienesSomos" element={<QuienesSomos />} />
+        <Route path="/adopta" element={<Adopta />} />
+        <Route path="/colabora" element={<Colabora />} />
+        <Route path="/contacto" element={<Contacto />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 

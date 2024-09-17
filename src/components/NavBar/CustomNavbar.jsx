@@ -1,6 +1,4 @@
-import Person from "../../assets/person.png";
 import Lupa from "../../assets/lupa.png";
-import Corazon from "../../assets/corazon.png";
 import Refugio from "../../assets/refugio.png";
 import Gato from "../../assets/logo_gato.png";
 import Peludito from "../../assets/PELUDITOS.png";
@@ -8,27 +6,33 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
-import "../../App.css";
+import "../NavBar/CustomNavbar.css";
 
 export const CustomNavbar = () => {
   return (
     <>
-      <Navbar className="nav">
-        <Container>
-          <Nav className="m-auto">
-            <NavLink to={"/QuienesSomos"}>Quiénes Somos</NavLink>
-            <NavLink to={"/Adopta"}>Adoptá</NavLink>
-            <NavLink to={"/Colabora"}>Colaborá</NavLink>
-            <NavLink to={"/Contacto"}>Contacto</NavLink>
+      <Navbar>
+        <Container className="NavBar">
+          <Nav className="me-auto">
+            <NavLink to={"/QuienesSomos"} className="custom-navlink">
+              Quiénes Somos
+            </NavLink>
+            <NavLink to={"/Adopta"} className="custom-navlink">
+              Adoptá
+            </NavLink>
+            <NavLink to={"/Colabora"} className="custom-navlink">
+              Colaborá
+            </NavLink>
+            <NavLink to={"/Contacto"} className="custom-navlink">
+              Contacto
+            </NavLink>
             <div className="d-flex icon-container">
-              <NavLink to={"#"}>
-                <img src={Person} style={{ width: "20px", height: "20px" }} />
-              </NavLink>
-              <NavLink to={"#"}>
-                <img src={Lupa} style={{ width: "20px", height: "20px" }} />
-              </NavLink>
-              <NavLink to={"#"}>
-                <img src={Corazon} style={{ width: "20px", height: "20px" }} />
+              <NavLink to="/Buscar">
+                <img
+                  src={Lupa}
+                  alt="Buscar"
+                  style={{ width: "20px", height: "20px" }}
+                />
               </NavLink>
             </div>
           </Nav>

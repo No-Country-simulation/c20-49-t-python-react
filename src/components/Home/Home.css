@@ -1,54 +1,179 @@
-.section {
-  background-size: cover;
-  background-position: center;
-  padding: 60px 20px;
+/* Sección 1 - Bienvenida */
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  min-height: 400px;
+  flex-wrap: wrap;
 }
 
-.section-1,
-.section-2,
-.section-3,
-.section-4 {
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  gap: 2rem;
+}
+
+.text-content {
+  flex: 1;
+  padding: 1rem;
+  max-width: 50%;
+}
+
+.letraNegra {
+  font-size: 2rem;
+  color: #000;
+}
+
+.letraVioleta {
+  font-size: 2rem;
+  color: #c77dff;
+}
+
+.parrafo {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: right;
+}
+
+.imagenHomeGato {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 50%;
+  padding-top: 2rem;
+}
+
+.imgGato {
+  margin-top: 1rem;
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #000;
+  background-color: #f8f9fa;
+  box-shadow: 5px 5px 0px #000;
+  max-height: 220px;
+}
+
+/* Sección 2 - Sobre el Refugio */
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  min-height: 400px;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.image-content::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.image-content {
+  position: relative;
+  height: auto;
+}
+
+.imagenRefugio {
+  flex: 1;
+  position: relative;
+  max-width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.imgUno {
+  position: relative;
+  width: 250px;
+  z-index: 1;
+  margin-right: -40px;
+}
+
+.imgDos {
+  position: relative;
+  width: 250px;
+  z-index: 2;
+  margin-left: -40px;
+}
+.section-3 {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding: 60px 20px;
+  background-size: cover;
+  background-position: center;
 }
 
-.text-content,
 .mascotas {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
-.imgGato,
 .perrito1,
 .gatito1,
-.gatito2,
-.imgUno,
-.imgDos {
-  width: 250px;
+.gatito2 {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.section-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  min-height: 400px;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-position: center;
+}
+
+.imagenColabora {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 50%;
+  padding-top: 2rem;
+}
+
+.perro_home2 {
+  max-width: 100%;
   height: auto;
-  margin: 20px;
+  background-color: #f8f9fa;
+  max-height: 250px;
 }
 
-.letraNegra,
-.letraVioleta {
-  font-family: "Roboto Slab", serif;
+.custom-button {
+  width: 7rem;
+  height: 3rem;
+  background-color: #a14caf;
+  border-radius: 4px;
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
 }
 
-.letraNegra {
-  color: #000;
-}
-
-.letraVioleta {
-  color: #a14caf;
-}
-
-.parrafo {
-  font-family: "Poppins", sans-serif;
-  font-size: 1rem;
-  color: #000;
-  line-height: 1.6;
-  margin: 20px;
+.custom-button:hover {
+  background-color: #922ba1;
 }
