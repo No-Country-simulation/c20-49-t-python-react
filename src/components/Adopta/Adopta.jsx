@@ -1,7 +1,10 @@
+import React from "react";
 import "./Adopta.css";
+import { Link } from "react-router-dom";
 
 const Adopta = () => {
   return (
+ 
     <div className="div-padre">
       <img
         className="img-a"
@@ -68,10 +71,10 @@ const Adopta = () => {
             </div>
             <div className="d-flex justify-content-around mx-5 mt-3 ">
               <div className="conocer">
-                <p>Conocer</p>
+              <Link  to={"/Adopta_perros"}><p>Conocer</p></Link>
               </div>
               <div className="conocer">
-                <p>Conocer</p>
+              <Link  to={"/Adopta_gatos"}><p>Conocer</p></Link>
               </div>
             </div>
           </div>
@@ -151,6 +154,7 @@ const Adopta = () => {
         </section>
       </section>
     </div>
+    
   );
 };
 
