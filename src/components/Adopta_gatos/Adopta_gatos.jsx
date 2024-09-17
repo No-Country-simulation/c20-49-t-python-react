@@ -13,6 +13,9 @@ function Adopta_gatos() {
       </div>
       <img className="rectanguloDos" src={rectangulo_2} />
       <h3 className="tituloAdoptaPerros">Encontrá a tu mejor <br /> amigo <span className="perruno">gatuno</span></h3>
+
+      /* carrusel */
+      
     </main>
   );
 }
