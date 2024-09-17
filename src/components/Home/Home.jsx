@@ -10,13 +10,17 @@ import Perro_home from "../../assets/perro_home.png";
 import Perro_home2 from "../../assets/perro_home2.png";
 import ImgGato1 from "../../assets/gatito1.png";
 import Gato_home from "../../assets/gato_home.png";
+import Rectangle_5 from "../../assets/Rectangle_5.png";
 import "./Home.css";
 
 function Home() {
   return (
     <main>
       {/* Sección 1 - Bienvenida */}
-      <section className="section section-1">
+      <section
+        className="section section-1"
+        style={{ backgroundImage: `url(${Rectangle})` }}
+      >
         <div className="content-wrapper">
           <div className="text-content">
             <h3 className="letraNegra">Bienvenido a</h3>
@@ -37,7 +41,10 @@ function Home() {
 
       {/* Sección 2 - Sobre el Refugio */}
 
-      <section className="section section-2">
+      <section
+        className="section section-2"
+        style={{ backgroundImage: `url(${Rectangle_2})` }}
+      >
         <div className="content-wrapper">
           <div className="text-content">
             <h3 className="letraNegra">Sobre el</h3>
@@ -84,7 +91,10 @@ function Home() {
 
       {/* Sección 4 - Colaborá */}
 
-      <section className="section section-4">
+      <section
+        className="section section-4"
+        style={{ backgroundImage: `url(${Rectangle_4})` }}
+      >
         <div className="content-wrapper">
           <div className="imagenColabora">
             <img className="perro_home2" src={Perro_home2} alt="Colaborar" />
@@ -103,6 +113,7 @@ function Home() {
           </div>
         </div>
       </section>
+      <img className="Rectangle_5" src={Rectangle_5}/>
     </main>
   );
 }

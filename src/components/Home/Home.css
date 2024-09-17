@@ -1,3 +1,9 @@
+.section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /* Sección 1 - Bienvenida */
 
 .section-1 {
@@ -46,19 +52,21 @@
   flex: 1;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  max-width: 50%;
-  padding-top: 2rem;
+  align-items: center;
+  max-width: 23%;
+  padding-top: 30rem;
+  position: relative;
+  left: -50px;
 }
 
 .imgGato {
-  margin-top: 1rem;
+  margin-top: 10rem;
   max-width: 100%;
   height: auto;
   border: 5px solid #000;
   background-color: #f8f9fa;
   box-shadow: 5px 5px 0px #000;
-  max-height: 220px;
+  max-height: 270px;
 }
 
 /* Sección 2 - Sobre el Refugio */
@@ -155,7 +163,6 @@
 .perro_home2 {
   max-width: 100%;
   height: auto;
-  background-color: #f8f9fa;
   max-height: 250px;
 }
 
