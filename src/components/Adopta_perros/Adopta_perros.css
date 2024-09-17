@@ -12,6 +12,7 @@
     border-radius: 6px;
     cursor: default;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
 }
 .cardItem:hover{
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
