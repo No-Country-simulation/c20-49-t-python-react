@@ -30,7 +30,7 @@
     
 }
 .tituloCinco{
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto Slab", serif;
     padding: 10px;
     background-color: #dcdcdc;
     color: #A14CAF;
@@ -39,4 +39,10 @@
     margin: 20px;
     padding: 20px;
     transform: translate(-130px, 40px);
+}
+.parrafoAdoptaPerros{
+    font-family: "Poppins", sans-serif;
+    color: black;
+    text-align: center;
+    font-weight: bold;
 }

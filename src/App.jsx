@@ -16,13 +16,13 @@ function App() {
       <CustomNavbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/quienesSomos" element={<QuienesSomos />} />
-        <Route path="/adopta" element={<Adopta />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/QuienesSomos" element={<QuienesSomos />} />
+        <Route path="/Adopta" element={<Adopta />} />
         <Route path="/Adopta_gatos" element={<Adopta_gatos />} />
         <Route path="/Adopta_perros" element={<Adopta_perros />} />
-        <Route path="/colabora" element={<Colabora />} />
-        <Route path="/contacto" element={<Contacto />} />
+        <Route path="/Colabora" element={<Colabora />} />
+        <Route path="/Contacto" element={<Contacto />} />
       </Routes>
       <Footer />
     </BrowserRouter>
