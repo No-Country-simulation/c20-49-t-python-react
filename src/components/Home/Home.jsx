@@ -85,7 +85,7 @@ function Home() {
             <img className="gatito2" src={Gato_home} alt="Gatito 2" />
           </div>
           <br />
-          <button class="custom-button">Ver todo</button>
+          <button className="custom-button">Ver todo</button>
         </div>
       </section>
 
@@ -109,11 +109,11 @@ function Home() {
               tránsito, organizando colectas de materiales y objetos. ¿Querés
               ser parte de la comunidad? ¡Sumate!
             </p>
-            <button class="custom-button">Unite</button>
+            <button className="custom-button">Unite</button>
           </div>
         </div>
       </section>
-      <img className="Rectangle_5" src={Rectangle_5}/>
+      <img className="Rectangle_5" src={Rectangle_5} alt="rectangulo5" />
     </main>
   );
 }

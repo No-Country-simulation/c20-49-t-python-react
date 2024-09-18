@@ -26,6 +26,8 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .cuadrados img {
@@ -33,8 +35,92 @@ body {
   height: 100%;
   object-fit: cover;
   display: block;
+  border: none;
+  padding: 0;
+  margin: 0;
 }
 
 .colabora_imgArriba {
   margin-bottom: 10rem;
+}
+
+.cuadrado-texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.cuadrado-container {
+  perspective: 1000px;
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.cuadrado-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.cuadrado-container.flipped .cuadrado-inner {
+  transform: rotateY(180deg);
+}
+
+.cuadrado-front,
+.cuadrado-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.cuadrado-front {
+  background-color: violet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 76px;
+  text-align: center;
+}
+
+.cuadrado-back {
+  background-color: #cf7ddc;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+}
+
+.VerMasColabora {
+  background-color: #a14caf;
+  color: white;
+  width: Hug (127px) px;
+  height: Hug (52px) px;
+  top: 3244px;
+  left: 6339px;
+  padding: 14px 32px 14px 32px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  border: none;
 }
