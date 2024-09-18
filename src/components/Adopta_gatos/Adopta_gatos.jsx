@@ -29,7 +29,7 @@ function Adopta_gatos() {
           <img src={gatito_1} className="card-img-top" alt="foto"/>
             <div className="card-body">
             <h5 className="tituloCinco text-center">LOLA</h5>
-            <p className="parrafoAdoptaPerros">Se encuentra castrado, vacunado, tiene 10 años</p>
+            <p className="parrafoAdoptaPerros">Castrada <br />Vacunada <br />Tiene 1 año</p>
             </div>
         </div>
         
@@ -37,7 +37,7 @@ function Adopta_gatos() {
           <img src={gatito_2} className="card-img-top" alt="foto"/>
             <div className="card-body">
               <h5 className="tituloCinco text-center">GALA</h5>
-              <p className="parrafoAdoptaPerros">Se encuentra castrado, vacunado, tiene 10 años</p>
+              <p className="parrafoAdoptaPerros">Castrada <br />Vacunada <br />Tiene 2 años</p>
             </div>
         </div>
 
@@ -45,7 +45,7 @@ function Adopta_gatos() {
           <img src={gatito_3} className="card-img-top" alt="foto"/>
             <div className="card-body">
               <h5 className="tituloCinco text-center">LUIGI</h5>
-              <p className="parrafoAdoptaPerros">Se encuentra castrado, vacunado, tiene 10 años</p>
+              <p className="parrafoAdoptaPerros">Castrado <br />Vacunado <br />Tiene 2 años</p>
             </div>
         </div>
 
@@ -53,7 +53,7 @@ function Adopta_gatos() {
           <img src={gatito_4} className="card-img-top" alt="foto"/>
             <div className="card-body">
               <h5 className="tituloCinco text-center">MARIO</h5>
-              <p className="parrafoAdoptaPerros">Se encuentra castrado, vacunado, tiene 10 años</p>
+              <p className="parrafoAdoptaPerros">Castrado <br />Vacunado <br />Tiene 1 año</p>
             </div>
         </div>
 
@@ -61,7 +61,7 @@ function Adopta_gatos() {
           <img src={gatito_5} className="card-img-top" alt="foto"/>
             <div className="card-body">
               <h5 className="tituloCinco text-center">THEODORA</h5>
-              <p className="parrafoAdoptaPerros">Se encuentra castrado, vacunado, tiene 10 años</p>
+              <p className="parrafoAdoptaPerros">Castrada <br />Vacunada <br />Tiene 2 años</p>
             </div>
         </div>
         
@@ -69,7 +69,7 @@ function Adopta_gatos() {
           <img src={gatito_6} className="card-img-top" alt="foto"/>
             <div className="card-body">
               <h5 className="tituloCinco text-center">BIGOTES</h5>
-              <p className="parrafoAdoptaPerros">Se encuentra castrado, vacunado, tiene 10 años</p>
+              <p className="parrafoAdoptaPerros">Castrado <br />Vacunado <br />Tiene 1 año</p>
             </div>
         </div>
 
@@ -77,7 +77,7 @@ function Adopta_gatos() {
           <img src={gatito_7} className="card-img-top" alt="foto"/>
             <div className="card-body">
               <h5 className="tituloCinco text-center">SIMBA</h5>
-              <p className="parrafoAdoptaPerros">Se encuentra castrado, vacunado, tiene 10 años</p>
+              <p className="parrafoAdoptaPerros">Castrada <br />Vacunada <br />Tiene 3 años</p>
             </div>
         </div>
 
@@ -85,7 +85,7 @@ function Adopta_gatos() {
           <img src={gatito_8} className="card-img-top" alt="foto"/>
             <div className="card-body">
               <h5 className="tituloCinco text-center">NUBE</h5>
-              <p className="parrafoAdoptaPerros">Se encuentra castrado, vacunado, tiene 10 años</p>
+              <p className="parrafoAdoptaPerros">Castrada <br />Vacunada <br />Tiene 1 año</p>
             </div>
         </div>
       </div>
