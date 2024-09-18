@@ -26,56 +26,56 @@ function Adopta_perros() {
         <div className="cardItem" style={{ width: "17rem", height: "23rem" }}>
           <img src={perrito_1} className="card-img-top" alt="foto"/>
             <div className="card-body">
-            <h5 className="tituloCinco text-center">Canela</h5>
+            <h5 className="tituloCinco text-center">CANELA</h5>
             </div>
         </div>
         
         <div className="cardItem" style={{ width: "17rem", height: "23rem" }}>
           <img src={perrito_2} className="card-img-top" alt="foto"/>
             <div className="card-body">
-              <h5 className="tituloCinco text-center">Pocho</h5>
+              <h5 className="tituloCinco text-center">POCHO</h5>
             </div>
         </div>
 
         <div className="cardItem" style={{ width: "17rem", height: "23rem" }}>
           <img src={perrito_3} className="card-img-top" alt="foto"/>
             <div className="card-body">
-              <h5 className="tituloCinco text-center">Luli</h5>
+              <h5 className="tituloCinco text-center">LULI</h5>
             </div>
         </div>
 
         <div className="cardItem" style={{ width: "17rem", height: "23rem" }}>
           <img src={perrito_4} className="card-img-top" alt="foto"/>
             <div className="card-body">
-              <h5 className="tituloCinco text-center">Tomy</h5>
+              <h5 className="tituloCinco text-center">TOMY</h5>
             </div>
         </div>
 
         <div className="cardItem" style={{ width: "17rem", height: "23rem" }}>
           <img src={perrito_1} className="card-img-top" alt="foto"/>
             <div className="card-body">
-              <h5 className="tituloCinco text-center">Taylor</h5>
+              <h5 className="tituloCinco text-center">TAYLOR</h5>
             </div>
         </div>
         
         <div className="cardItem" style={{ width: "17rem", height: "23rem" }}>
           <img src={perrito_2} className="card-img-top" alt="foto"/>
             <div className="card-body">
-              <h5 className="tituloCinco text-center">Selena</h5>
+              <h5 className="tituloCinco text-center">SELENA</h5>
             </div>
         </div>
 
         <div className="cardItem" style={{ width: "17rem", height: "23rem" }}>
           <img src={perrito_3} className="card-img-top" alt="foto"/>
             <div className="card-body">
-              <h5 className="tituloCinco text-center">Olivia</h5>
+              <h5 className="tituloCinco text-center">OLIVIA</h5>
             </div>
         </div>
 
         <div className="cardItem" style={{ width: "17rem", height: "23rem" }}>
           <img src={perrito_4} className="card-img-top" alt="foto"/>
             <div className="card-body">
-              <h5 className="tituloCinco text-center">Meredith</h5>
+              <h5 className="tituloCinco text-center">MEREDITH</h5>
             </div>
         </div>
       </div>
