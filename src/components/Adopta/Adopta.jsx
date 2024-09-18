@@ -57,10 +57,10 @@ const Adopta = () => {
               </div>
               <div className="d-flex justify-content-around mx-5 mt-3 ">
                 <div className="conocer">
-                  <Link to={"/Adopta_perros"}><p>Conocer</p></Link>
+                  <Link className="linkAdopta" to={"/Adopta_perros"}><p>Conocer</p></Link>
                 </div>
                 <div className="conocer">
-                  <Link to={"/Adopta_gatos"}><p>Conocer</p></Link>
+                  <Link className="linkAdopta" to={"/Adopta_gatos"}><p>Conocer</p></Link>
                 </div>
               </div>
             </div>
