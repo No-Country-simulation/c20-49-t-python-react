@@ -31,7 +31,7 @@ function Adopta_perros() {
           <img src={perrito_1} className="card-img-top" alt="foto"/>
             <div className="card-body">
             <h5 className="tituloCinco text-center">CANELA</h5>
-            <p className="parrafoAdoptaPerros">Se encuentra castrado, vacunado, tiene 10 años</p>
+            <p className="parrafoAdoptaPerros">Castrada <br />Vacunada <br />Tiene 3 años</p>
             </div>
         </div>
         
@@ -39,7 +39,7 @@ function Adopta_perros() {
           <img src={perrito_2} className="card-img-top" alt="foto"/>
             <div className="card-body">
               <h5 className="tituloCinco text-center">POCHO</h5>
-              <p className="parrafoAdoptaPerros">Se encuentra castrado, vacunado, tiene 10 años</p>
+              <p className="parrafoAdoptaPerros">Castrado <br />Vacunado <br />Tiene 1 año</p>
             </div>
         </div>
 
@@ -47,7 +47,7 @@ function Adopta_perros() {
           <img src={perrito_3} className="card-img-top" alt="foto"/>
             <div className="card-body">
               <h5 className="tituloCinco text-center">LULI</h5>
-              <p className="parrafoAdoptaPerros">Se encuentra castrado, vacunado, tiene 10 años</p>
+              <p className="parrafoAdoptaPerros">Castrada <br />Vacunada <br />Tiene 1 año</p>
             </div>
         </div>
 
@@ -55,7 +55,7 @@ function Adopta_perros() {
           <img src={perrito_4} className="card-img-top" alt="foto"/>
             <div className="card-body">
               <h5 className="tituloCinco text-center">TOMY</h5>
-              <p className="parrafoAdoptaPerros">Se encuentra castrado, vacunado, tiene 10 años</p>
+              <p className="parrafoAdoptaPerros">Castrado <br />Vacunado <br />Tiene 2 años</p>
             </div>
         </div>
 
@@ -63,7 +63,7 @@ function Adopta_perros() {
           <img src={perrito_5} className="card-img-top" alt="foto"/>
             <div className="card-body">
               <h5 className="tituloCinco text-center">TAYLOR</h5>
-              <p className="parrafoAdoptaPerros">Se encuentra castrado, vacunado, tiene 10 años</p>
+              <p className="parrafoAdoptaPerros">Castrada <br />Vacunada <br />Tiene 1 año</p>
             </div>
         </div>
         
@@ -71,7 +71,7 @@ function Adopta_perros() {
           <img src={perrito_6} className="card-img-top" alt="foto"/>
             <div className="card-body">
               <h5 className="tituloCinco text-center">SELENA</h5>
-              <p className="parrafoAdoptaPerros">Se encuentra castrado, vacunado, tiene 10 años</p>
+              <p className="parrafoAdoptaPerros">Castrada <br />Vacunada <br />Tiene 3 años</p>
             </div>
         </div>
 
@@ -79,7 +79,7 @@ function Adopta_perros() {
           <img src={perrito_7} className="card-img-top" alt="foto"/>
             <div className="card-body">
               <h5 className="tituloCinco text-center">OLIVIA</h5>
-              <p className="parrafoAdoptaPerros">Se encuentra castrado, vacunado, tiene 10 años</p>
+              <p className="parrafoAdoptaPerros">Castrada <br />Vacunada <br />Tiene 1 año</p>
             </div>
         </div>
 
@@ -87,7 +87,7 @@ function Adopta_perros() {
           <img src={perrito_8} className="card-img-top" alt="foto"/>
             <div className="card-body">
               <h5 className="tituloCinco text-center">MEREDITH</h5>
-              <p className="parrafoAdoptaPerros">Se encuentra castrado, vacunado, tiene 10 años</p>
+              <p className="parrafoAdoptaPerros">Castrada <br />Vacunada <br />Tiene 2 años</p>
             </div>
         </div>
       </div>
