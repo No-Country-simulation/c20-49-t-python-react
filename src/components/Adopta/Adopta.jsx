@@ -1,8 +1,16 @@
-import React from "react";
+
 import "./Adopta.css";
 import { Link } from "react-router-dom";
 import rectangulo_1 from "../QuienesSomos/img/rectangulo_1.png";
 import rectangulo_2 from "../QuienesSomos/img/rectangulo_2.png";
+import perrito from './AdoptaImg/image 6.png'
+import gatito from './AdoptaImg/image 3.png'
+import bordeGatito from './AdoptaImg/Vector (2).png'
+import bordePerrito from './AdoptaImg/Vector (3).png'
+import imgFooter from './AdoptaImg/Rectangle 46.png'
+
+
+
 
 const Adopta = () => {
   return (
@@ -32,24 +40,24 @@ const Adopta = () => {
               <div className="d-flex justify-content-around mx-5">
                 <div className="image-wrapper">
                   <img
-                    src="/src/assets/AdoptaImg/image 6.png"
+                    src={perrito}
                     alt="perrito"
                     className="dog-image"
                   />
                   <img
-                    src="/src/assets/AdoptaImg/Vector (3).png"
+                    src={bordePerrito}
                     alt="borde"
                     className="border-image "
                   />
                 </div>
                 <div className="image-wrapper">
                   <img
-                    src="/src/assets/AdoptaImg/image 3.png"
-                    alt="perrito"
+                    src={gatito}
+                    alt="gatito"
                     className="dog-image"
                   />
                   <img
-                    src="/src/assets/AdoptaImg/Vector (2).png"
+                    src={bordeGatito}
                     alt="borde"
                     className="border-image"
                   />
@@ -136,7 +144,7 @@ const Adopta = () => {
             </div>
           </div>
           <section className="section-img-footer">
-            <img src="/src/assets/AdoptaImg/Rectangle 46.png" alt="" />
+            <img src={imgFooter} alt="" />
           </section>
         </section>
       
